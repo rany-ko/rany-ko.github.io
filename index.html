@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디지털 전문가 Rany | 포트폴리오</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+        body { font-family: 'Noto Sans KR', sans-serif; scroll-behavior: smooth; }
+        .section-title { @apply text-3xl font-bold mb-8 text-slate-800 border-l-4 border-indigo-600 pl-4; }
+        .nav-link { @apply text-slate-600 hover:text-indigo-600 font-medium transition-colors; }
+        .card { @apply bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow; }
+        .career-table th { @apply p-4 font-semibold text-white bg-slate-900; }
+        .career-table td { @apply p-4 border-b border-slate-100; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- 상단 메뉴 (TOP MENU) -->
+    <nav class="fixed top-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold text-indigo-600 tracking-tight">DIGITAL RANY</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#intro" class="nav-link">소개</a>
+                <a href="#cert" class="nav-link">자격</a>
+                <a href="#career" class="nav-link">경력</a>
+                <a href="#expertise" class="nav-link">전문분야</a>
+                <a href="#vision" class="nav-link">포부/철학</a>
+                <a href="#contact" class="nav-link">연락처</a>
+            </div>
+            <button class="md:hidden text-slate-600 text-2xl"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- 소개 (INTRODUCTION) -->
+    <header id="intro" class="pt-32 pb-20 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="w-32 h-32 bg-indigo-100 rounded-full mx-auto mb-6 flex items-center justify-center text-4xl text-indigo-600">
+                <i class="fas fa-user-tie"></i>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 text-slate-900 italic">"Digital Bridge for Everyone"</h1>
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-slate-800 underline decoration-indigo-200 decoration-8 underline-offset-4">디지털 전문가 Rany입니다.</h2>
+            <p class="text-xl text-slate-600 mb-8 leading-relaxed">
+                4060 중장년 및 시니어 세대의 디지털 문해력을 높이고,<br class="hidden md:block">
+                지역 소상공인이 디지털 도구를 통해 비즈니스 경쟁력을 갖출 수 있도록 돕습니다.
+            </p>
+            <div class="flex justify-center space-x-4">
+                <div class="flex items-center space-x-2 bg-white px-5 py-2.5 rounded-full border border-slate-200 shadow-sm">
+                    <i class="fas fa-chalkboard-teacher text-indigo-600"></i>
+                    <span class="font-medium text-slate-700 text-sm md:text-base">디지털 역량 강화 강사</span>
+                </div>
+                <div class="flex items-center space-x-2 bg-white px-5 py-2.5 rounded-full border border-slate-200 shadow-sm">
+                    <i class="fas fa-bullhorn text-indigo-600"></i>
+                    <span class="font-medium text-slate-700 text-sm md:text-base">마케팅 컨설팅 전문가</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 space-y-24 pb-32">
+
+        <!-- 자격 (CERTIFICATION) -->
+        <section id="cert">
+            <h2 class="section-title">자격 및 대외활동 (CERTIFICATION)</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="card flex items-start space-x-4 border-l-4 border-l-indigo-400">
+                    <div class="p-3 bg-indigo-50 rounded-lg text-indigo-600"><i class="fas fa-award text-xl"></i></div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-1">질병관리청 국민소통단</h3>
+                        <p class="text-slate-600">제9기 국민소통단원 (2026.03 ~ 2026.12)</p>
+                    </div>
+                </div>
+                <div class="card flex items-start space-x-4 border-l-4 border-l-emerald-400">
+                    <div class="p-3 bg-emerald-50 rounded-lg text-emerald-600"><i class="fas fa-graduation-cap text-xl"></i></div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-1">AI 강사 직무교육</h3>
+                        <p class="text-slate-600">생성형 AI 활용 교육 전문가 과정 수료</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 경력 (CAREER) -->
+        <section id="career">
+            <h2 class="section-title">주요 경력 (CAREER)</h2>
+            <div class="overflow-x-auto bg-white rounded-xl shadow-sm border border-slate-200">
+                <table class="w-full text-left career-table">
+                    <thead>
+                        <tr>
+                            <th class="whitespace-nowrap">기간</th>
+                            <th>기관명</th>
+                            <th>주요 강의 및 활동 내용</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-sm md:text-base">
+                        <tr>
+                            <td class="text-slate-500 whitespace-nowrap">2026.03 ~ 2026.12</td>
+                            <td class="font-medium italic">질병관리청</td>
+                            <td>제9기 국민소통단원 활동</td>
+                        </tr>
+                        <tr class="bg-slate-50/50">
+                            <td class="text-slate-500 whitespace-nowrap">2025.02 ~ 2025.12</td>
+                            <td class="font-medium text-indigo-700">서초스마트시니어센터 / 금천50+</td>
+                            <td>영상 강의(캡컷, AI 활용 영상 만들기), 스마트폰 갤러리 활용</td>
+                        </tr>
+                        <tr>
+                            <td class="text-slate-500 whitespace-nowrap">2025.02 ~ 2025.12</td>
+                            <td class="font-medium text-indigo-700">시니어금융교육협의회 / 신한아름인금융프렌드</td>
+                            <td>시니어 디지털 금융 교육</td>
+                        </tr>
+                        <tr class="bg-slate-50/50">
+                            <td class="text-slate-500 whitespace-nowrap">2025.04 ~ 2025.11</td>
+                            <td class="font-medium text-indigo-700">서울AI재단</td>
+                            <td>어르신 스마트폰 활용 및 AI 강의</td>
+                        </tr>
+                        <tr>
+                            <td class="text-slate-500 whitespace-nowrap">2024.06 ~ 2024.12</td>
+                            <td class="font-medium text-indigo-700">시니어금융교육협의회 / 신한아름인금융프렌드</td>
+                            <td>시니어 디지털 금융 교육</td>
+                        </tr>
+                        <tr class="bg-slate-50/50">
+                            <td class="text-slate-500 whitespace-nowrap">2024.04.05 ~ 04.26</td>
+                            <td class="font-medium text-indigo-700">서울50플러스재단</td>
+                            <td>영상 강의</td>
+                        </tr>
+                        <tr>
+                            <td class="text-slate-500 whitespace-nowrap">2023.04 ~ 2023.12</td>
+                            <td class="font-medium text-indigo-700">서울디지털재단</td>
+                            <td>어르신 스마트폰 활용 강의</td>
+                        </tr>
+                        <tr class="bg-slate-50/50">
+                            <td class="text-slate-500 whitespace-nowrap">2023.03 ~ 2023.10</td>
+                            <td class="font-medium text-indigo-700 text-indigo-700">서울50+ 도심권사업팀</td>
+                            <td>중장년 디지털 전환교육(구글 스마트워크, 영상 강의)</td>
+                        </tr>
+                        <tr>
+                            <td class="text-slate-500 whitespace-nowrap">2022.04 ~ 2022.11</td>
+                            <td class="font-medium text-indigo-700 text-indigo-700">서울50+ 도심권센터</td>
+                            <td>시니어 스마트폰 활용 강의</td>
+                        </tr>
+                        <tr class="bg-slate-50/50">
+                            <td class="text-slate-500 whitespace-nowrap">2022.03 ~ 2022.09</td>
+                            <td class="font-medium text-indigo-700 text-indigo-700">서울50+ 도심권센터</td>
+                            <td>SNS학교 및 SNS 전문가 과정 보조 강사 활동</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- 전문분야 (EXPERTISE) -->
+        <section id="expertise">
+            <h2 class="section-title">전문 분야 및 도구 (EXPERTISE)</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="card group hover:bg-indigo-600 transition-all duration-300">
+                    <div class="text-3xl text-red-500 mb-3 group-hover:text-white"><i class="fas fa-video"></i></div>
+                    <h3 class="font-bold group-hover:text-white">CapCut</h3>
+                    <p class="text-sm text-slate-500 mt-2 group-hover:text-indigo-100">영상 편집 및 제작</p>
+                </div>
+                <div class="card group hover:bg-indigo-600 transition-all duration-300">
+                    <div class="text-3xl text-blue-500 mb-3 group-hover:text-white"><i class="fas fa-robot"></i></div>
+                    <h3 class="font-bold group-hover:text-white">Generative AI</h3>
+                    <p class="text-sm text-slate-500 mt-2 group-hover:text-indigo-100">생성형 AI 활용 콘텐츠</p>
+                </div>
+                <div class="card group hover:bg-indigo-600 transition-all duration-300">
+                    <div class="text-3xl text-green-500 mb-3 group-hover:text-white"><i class="fas fa-chart-line"></i></div>
+                    <h3 class="font-bold group-hover:text-white">Digital Marketing</h3>
+                    <p class="text-sm text-slate-500 mt-2 group-hover:text-indigo-100">소상공인 마케팅 도구</p>
+                </div>
+                <div class="card group hover:bg-indigo-600 transition-all duration-300">
+                    <div class="text-3xl text-amber-500 mb-3 group-hover:text-white"><i class="fas fa-university"></i></div>
+                    <h3 class="font-bold group-hover:text-white">Digital Finance</h3>
+                    <p class="text-sm text-slate-500 mt-2 group-hover:text-indigo-100">시니어 금융 리터러시</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 포부 및 강의철학 (VISION & PHILOSOPHY) -->
+        <section id="vision" class="grid md:grid-cols-2 gap-8">
+            <div class="flex flex-col h-full">
+                <h2 class="section-title">앞으로의 포부 (VISION)</h2>
+                <div class="card flex-grow bg-indigo-900 text-white border-none p-10 relative overflow-hidden shadow-xl">
+                    <i class="fas fa-rocket absolute -right-4 -bottom-4 text-9xl opacity-10 rotate-12"></i>
+                    <ul class="space-y-8 relative z-10">
+                        <li class="flex items-start space-x-4">
+                            <span class="bg-white/20 p-2 rounded-lg"><i class="fas fa-shield-alt text-xl"></i></span>
+                            <div>
+                                <h4 class="font-bold text-xl mb-1 text-indigo-200">시니어 디지털 금융 전문가</h4>
+                                <p class="text-slate-300 text-sm leading-relaxed">금융 소외 계층인 시니어들이 안전하고 편리하게 디지털 금융 서비스를 누릴 수 있도록 실전 교육을 확대하겠습니다.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start space-x-4">
+                            <span class="bg-white/20 p-2 rounded-lg"><i class="fas fa-store text-xl"></i></span>
+                            <div>
+                                <h4 class="font-bold text-xl mb-1 text-indigo-200">소상공인 디지털 마케팅 컨설턴트</h4>
+                                <p class="text-slate-300 text-sm leading-relaxed">디지털 도구 활용에 어려움을 겪는 지역 소상공인들에게 맞춤형 마케팅 솔루션을 제공하여 매출 증대와 자립을 돕겠습니다.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col h-full">
+                <h2 class="section-title">강의 철학 (PHILOSOPHY)</h2>
+                <div class="card flex-grow border-2 border-dashed border-slate-200 bg-white flex flex-col justify-center text-center p-10">
+                    <div class="text-4xl text-slate-300 mb-6 font-serif">"</div>
+                    <blockquote class="text-xl font-medium text-slate-700 italic leading-relaxed px-4">
+                        기술은 복잡할 수 있지만, 교육은 친절해야 합니다.<br><br>
+                        단순한 기능 설명을 넘어, <br>
+                        삶의 질을 높이는 <strong>'디지털 자신감'</strong>을 심어드리는 것이 저의 유일한 철학입니다.
+                    </blockquote>
+                    <div class="text-4xl text-slate-300 mt-6 font-serif transform rotate-180">"</div>
+                    <p class="mt-4 text-indigo-600 font-bold">- 강사 Rany</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 연락처 (CONTACT) -->
+        <section id="contact" class="bg-slate-100 border border-slate-200 p-12 rounded-3xl text-center shadow-inner">
+            <h2 class="text-3xl font-extrabold mb-8 text-slate-800">함께 성장하고 싶다면 연락주세요!</h2>
+            <div class="flex flex-wrap justify-center gap-6">
+                <mkran222@gmail.com>
+                <a href="mailto:your-email@naver.com" class="group flex items-center space-x-3 bg-white px-6 py-3 rounded-xl border border-slate-200 hover:border-indigo-600 transition-all shadow-sm">
+                    <i class="fas fa-envelope text-xl text-slate-400 group-hover:text-indigo-600"></i>
+                    <span class="font-bold text-slate-700 text-sm md:text-base">이메일 문의하기</span>
+                </a>
+                <https://blog.naver.com/mran2222>
+                <a href="https://blog.naver.com/your-id" target="_blank" class="group flex items-center space-x-3 bg-white px-6 py-3 rounded-xl border border-slate-200 hover:border-emerald-600 transition-all shadow-sm">
+                    <i class="fas fa-blog text-xl text-slate-400 group-hover:text-emerald-600"></i>
+                    <span class="font-bold text-slate-700 text-sm md:text-base">Naver Blog</span>
+                </a>
+                <https://www.instagram.com/ran.ko.5/?hl=ko>
+                <a href="https://instagram.com/your-id" target="_blank" class="group flex items-center space-x-3 bg-white px-6 py-3 rounded-xl border border-slate-200 hover:border-pink-500 transition-all shadow-sm">
+                    <i class="fab fa-instagram text-xl text-slate-400 group-hover:text-pink-500"></i>
+                    <span class="font-bold text-slate-700 text-sm md:text-base">Instagram</span>
+                </a>
+            </div>
+            <p class="mt-8 text-slate-400 text-sm italic">* 위 버튼의 링크 주소는 본인의 계정 정보로 수정하여 사용하세요.</p>
+        </section>
+
+    </main>
+
+    <footer class="py-12 bg-white border-t border-slate-200 text-center text-slate-500 text-sm">
+        <p class="font-medium">© 2026 Digital Expert Rany. All rights reserved.</p>
+        <p class="mt-2 text-slate-400">시니어를 위한 디지털 가이드, 소상공인을 위한 성장의 동반자</p>
+    </footer>
+
+</body>
+</html>
